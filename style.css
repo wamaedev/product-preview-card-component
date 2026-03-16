@@ -87,3 +87,14 @@ main {
   background-color: hsl(158, 42%, 18%);
   cursor: pointer;
 }
+
+@media (max-width: 600px) {
+  .product-info {
+    flex-direction: column;
+    width: 90%;
+  }
+
+  .product-info img {
+    width: 100%;
+  }
+}
