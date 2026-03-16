@@ -1,25 +1,33 @@
-body {
+* {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+}
+
+body {
   background-color: hsl(30, 38%, 92%);
 }
 
-.product-card {
+main {
   display: flex;
-  padding: 100px 100px;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
 }
 
 .product-info {
   width: 500px;
   height: 350px;
+  background-color: white;
   display: flex;
   gap: 25px;
   border-radius: 5px;
 }
 
 .product-info img {
-  border-radius: 5px;
+  width: 50%;
+  object-fit: cover;
+  border-radius: 5px 0 0 5px;
 }
 
 
@@ -38,6 +46,8 @@ body {
 .product-description {
   font-family: Montserrat;
   font-size: 15px;
+  line-height: 1.6;
+  color: hsl(228, 12%, 48%);
 }
 
 .price {
@@ -57,6 +67,7 @@ body {
 .old-price {
   text-decoration: line-through;
   margin-top: 10px;
+  font-size: 10px;
 }
 
 .product-info button {
@@ -69,12 +80,7 @@ body {
   font-family: Fraunces;
 }
 
-
-.attribution { 
-  font-size: 11px; 
-  text-align: center; 
-}
-
-.attribution a { 
-  color: hsl(228, 45%, 44%); 
+.product-info button:hover {
+  background-color: hsl(158, 42%, 18%);
+  cursor: pointer;
 }
