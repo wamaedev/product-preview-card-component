@@ -48,8 +48,8 @@ main {
 
 .product-description {
   font-family: Montserrat;
-  font-size: 15px;
-  line-height: 1.6;
+  font-size: 12px;
+  line-height: 2;
   color: hsl(228, 12%, 48%);
 }
 
