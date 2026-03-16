@@ -7,10 +7,8 @@ body {
 
 .product-card {
   display: flex;
-  margin: auto;
   padding: 100px 100px;
 }
-
 
 .product-info {
   width: 500px;
@@ -47,16 +45,29 @@ body {
   flex-direction: row;
   text-align: center;
   gap: 20px;
+  font-family: Fraunces;
 }
 
 .current-price {
-  font-family: Fraunces;
   font-size: 30px;
   font-weight: bold;
   color: hsl(158, 36%, 37%);
 }
 
+.old-price {
+  text-decoration: line-through;
+  margin-top: 10px;
+}
 
+.product-info button {
+  margin-top: 10px;
+  border: none;
+  padding: 10px 50px ;
+  border-radius: 10px;
+  background-color: hsl(158, 36%, 37%);
+  color: white;
+  font-family: Fraunces;
+}
 
 
 .attribution { 
