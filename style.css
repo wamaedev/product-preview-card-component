@@ -2,22 +2,62 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background-color: hsl(30, 38%, 92%);
 }
 
 .product-card {
-  width: 500px;
-  height: 350px;
-  border-radius: 2px;
   display: flex;
   margin: auto;
   padding: 100px 100px;
-  gap: 25px;
 }
 
-.product-card img {
-  max-width: 100%;
-  height: auto;
+
+.product-info {
+  width: 500px;
+  height: 350px;
+  display: flex;
+  gap: 25px;
+  border-radius: 5px;
 }
+
+.product-info img {
+  border-radius: 5px;
+}
+
+
+.product-category {
+  font-family: Montserrat;
+  font-weight: 400;
+  letter-spacing: 5px;
+  font-size: 15px;
+}
+
+.product-title {
+  font-family: Fraunces;
+  font-size: 30px;
+}
+
+.product-description {
+  font-family: Montserrat;
+  font-size: 15px;
+}
+
+.price {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  gap: 20px;
+}
+
+.current-price {
+  font-family: Fraunces;
+  font-size: 30px;
+  font-weight: bold;
+  color: hsl(158, 36%, 37%);
+}
+
+
+
 
 .attribution { 
   font-size: 11px; 
